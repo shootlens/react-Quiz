@@ -1,5 +1,5 @@
 import React, {component}  from 'react';
-import {QuizData} from './QuizData'
+import { QuizData } from './QuizData'
 import './styles.css'
 
 export class Quiz extends component {
