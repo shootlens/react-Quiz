@@ -5,10 +5,9 @@ import Quiz from './Quiz'
 
 function App () {
     return(
-        <div>
-        {/* we can write here....everything will be displayed on the main page */}
-           <Quiz></Quiz>
-        </div>
+      <div>
+        <Quiz> </Quiz>
+      </div>
     )
 }
 
