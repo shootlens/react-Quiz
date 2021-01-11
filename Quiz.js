@@ -32,7 +32,7 @@ export class Quiz extends component {
 
     }
 
-    nextQuestionHander = () => {
+    nextQuestionHandler = () => {
         const {userAnswer, answer, score} = this.state
         this.setState({
             currentIndex: this.state.currentIndex + 1
